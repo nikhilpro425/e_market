@@ -19,7 +19,7 @@ function renderProductsGrid(){
   searchButton.addEventListener('click', () => {
     searchValue = searchBar.value;
     searchBar.value = '';
-    window.location.href = `amazon.html?search=${searchValue}`;
+    window.location.href = `index.html?search=${searchValue}`;
     console.log(searchValue);
   })
   

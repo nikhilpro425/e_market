@@ -97,7 +97,5 @@ function renderOrder(order) {
   return orderHTML;
 }
 
-
-// Render Page
 renderAllOrders();
 
